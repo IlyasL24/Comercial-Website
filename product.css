@@ -5,11 +5,12 @@
     grid-template-columns: repeat(auto-fit, 22rem);
     max-width: 120rem;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     grid-gap: 1.5rem;
     padding-top: 2rem;
     margin: 0 auto;
     margin-bottom: 2rem;
+    min-height: 100vh;
 }
 
 .item {
