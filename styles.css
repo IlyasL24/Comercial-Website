@@ -71,8 +71,24 @@ main {
 
 }
 
-.slider input[type=radio] {
+.slider input[type=radio],
+.redirect {
     display: none;
+}
+
+.redirect {
+    width: 70rem;
+    height: 40rem;
+}
+
+#slide1:checked ~ .slides .slide_1 a,
+#slide2:checked ~ .slides .slide_2 a,
+#slide3:checked ~ .slides .slide_3 a,
+#slide4:checked ~ .slides .slide_4 a,
+#slide5:checked ~ .slides .slide_5 a,
+#slide6:checked ~ .slides .slide_6 a,
+#slide7:checked ~ .slides .slide_7 a {
+    display: block;
 }
 
 .slides {
@@ -98,12 +114,6 @@ main {
     height: 50%;
     margin-top: 10rem;
     transition: 400ms linear;
-}
-
-.redirect {
-    width: 70rem;
-    height: 40rem;
-    display: block;
 }
 
 .slide_1 {
