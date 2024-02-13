@@ -44,7 +44,6 @@ a, p, li {
 }
 
 main {
-    margin-top: calc(var(--nav-height) + 2rem);
     overflow-x: hidden;
 }
 
