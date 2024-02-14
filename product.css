@@ -1,8 +1,6 @@
 .grid {
     display: grid;
-    background-color: rd;
-    grid-template-rows: repeat(auto-fit, 1fr);
-    grid-template-columns: repeat(auto-fit, 22rem);
+    grid-template-columns: repeat(auto-fit, 20rem);
     max-width: 120rem;
     justify-content: center;
     align-content: flex-start;
@@ -19,7 +17,6 @@
     justify-content: center;
     align-items: center;
     transition: 200ms ease;
-    
 }
 
 .item:hover {
@@ -33,7 +30,7 @@
     height: 18rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    
+    object-fit: contain;
 }
 
 .item .description {
